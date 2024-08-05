@@ -75,6 +75,16 @@ java:
 
 
 
+### JVM
+
+![JVM内存模型](../assets/JVM内存模型.png)
+
+
+
+
+
+
+
 
 
 
