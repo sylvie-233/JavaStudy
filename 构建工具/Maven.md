@@ -9,9 +9,11 @@
 
 
 ### mvn
-```
-
-
+```yaml
+mvn:
+    clean:
+    package:
+    test:
 ```
 
 

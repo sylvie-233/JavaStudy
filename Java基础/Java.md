@@ -4,10 +4,15 @@
 ## 基础介绍
 
 
+### java
+```yaml
+java:
+    -jar: 运行jar包
+```
 
 
 
-### jconsole
+#### jconsole
 
 java进程调试工具
 
@@ -16,7 +21,7 @@ jsonsole:
 
 ```
 
-### jmap
+#### jmap
 
 查看java运行堆信息
 
@@ -26,7 +31,7 @@ jamp:
 ```
 
 
-### jps
+#### jps
 
 查看java运行进程信息
 
@@ -35,7 +40,7 @@ jps:
 
 ```
 
-### jstack
+#### jstack
 
 查看java运行栈信息
 
@@ -46,7 +51,7 @@ jstack:
 
 
 
-### jstat
+#### jstat
 
 查看java运行进程内存信息
 
@@ -57,7 +62,17 @@ jstat:
 
 
 
+### Jar包
 
+目录结构：
+```yaml
+jar:
+    /BOOT-INF:
+        class: 
+        lib: 依赖jar包
+    /META-INF:
+        MANIFEST.MF:
+```
 
 
 
